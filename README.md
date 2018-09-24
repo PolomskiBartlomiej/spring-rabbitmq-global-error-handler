@@ -1,1 +1,2 @@
 # rabbitmq-global-error-handler
+https://github.com/spring-projects/spring-amqp-samples/blob/master/spring-rabbit-global-errorhandler/src/main/java/org/springframework/amqp/samples/errorhandler/Application.java
