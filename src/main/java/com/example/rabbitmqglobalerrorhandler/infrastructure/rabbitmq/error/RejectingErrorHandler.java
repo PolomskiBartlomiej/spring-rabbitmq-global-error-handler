@@ -15,7 +15,10 @@ public class RejectingErrorHandler extends ConditionalRejectingErrorHandler.Defa
     @Override
     public boolean isFatal(Throwable t) {
         if (t instanceof ListenerExecutionFailedException) {
-            log.error("logged: " + t.getLocalizedMessage());
+            log.error("Error during receiving message: " + 
+                    new String(((ListenerExecutionFailedException) t).getFailedMessage().getBody()) +
+                    " reason: " +
+                    t.getLocalizedMessage());
         }
         return super.isFatal(t);
     }
