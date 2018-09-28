@@ -16,7 +16,6 @@ class ExchangeFactory {
     @CustomersExchange
     Exchange customersExchange() {
         return ExchangeBuilder.topicExchange(ExchangeNames.CUSTOMERS)
-                .durable(true)
                 .build();
     }
 }
