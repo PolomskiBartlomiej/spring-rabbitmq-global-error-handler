@@ -10,7 +10,6 @@ import org.springframework.util.ErrorHandler;
  * Created by mtumilowicz on 2018-09-24.
  */
 @Configuration
-@Slf4j
 public class GlobalErrorConfig {
     @Bean
     public ErrorHandler errorHandler(RejectingErrorHandler rejectingErrorHandler) {
