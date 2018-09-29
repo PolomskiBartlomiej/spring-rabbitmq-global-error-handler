@@ -1,6 +1,5 @@
 package com.example.rabbitmqglobalerrorhandler.infrastructure.rabbitmq.error;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
