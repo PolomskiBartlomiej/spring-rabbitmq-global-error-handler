@@ -11,7 +11,7 @@ import org.springframework.util.ErrorHandler;
  */
 @Configuration
 @Slf4j
-public class GlobalErrorHandler {
+public class GlobalErrorConfig {
     @Bean
     public ErrorHandler errorHandler(RejectingErrorHandler rejectingErrorHandler) {
         return new ConditionalRejectingErrorHandler(rejectingErrorHandler);
