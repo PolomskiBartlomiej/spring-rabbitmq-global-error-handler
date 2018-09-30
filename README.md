@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/rabbitmq-global-error-handler.svg?branch=master)](https://travis-ci.com/mtumilowicz/rabbitmq-global-error-handler)
+
 # rabbitmq-global-error-handler
 The main goal of this project is to show how to configure
 global error handling for exceptions occurred during receiving 
